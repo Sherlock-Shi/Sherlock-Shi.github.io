@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Haoran Shi
 ---
-hello world
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Haoran Shi

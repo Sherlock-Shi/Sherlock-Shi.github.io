@@ -18,22 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Oh, hello there :)
-email: haoran.shi@outlook.com
+title: Haoran Shi
+email: Haoran.shi@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site a working in progress by Haoran Shi
-  Totally not abandoned. 
-baseurl: /docs # the subpath of your site, e.g. /blog
-baseurl: sherlock-shi.github.io
-url: https://sherlock-shi.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sherlockshi1
-github_username:  sherlock-shi
+  1st Year PhD | London School of Economics 
+  Department of Psychological and Behavioural Science
+  Focus on Partisan Polarization and Technology
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Sherlock-Shi
+github_username:  Sherlock-Shi
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
+  - jekyll-feed
   - jekyll-remote-theme
-
+remote_theme: pages-themes/minimal@v0.2.0
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -53,4 +54,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-show_downloads: true
