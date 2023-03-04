@@ -20,15 +20,17 @@
 
 title: Haoran Shi
 email: Haoran.shi@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  1st Year PhD | London School of Economics 
-  Department of Psychological and Behavioural Science
-  Focus on Partisan Polarization and Technology
+description: > # this means to ignore newlines until "baseurl:"
+  Computational Political Psychology PhD |
+  London School of Economics |
+  ![Department of Psychological and Behavioural Science](https://www.lse.ac.uk/PBS) |
+  Focus on Partisan Polarization and Technology |
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Sherlock-Shi
 github_username:  Sherlock-Shi
 
+logo: /assets/images/Profile.jpg
 # Build settings
 theme: minima
 plugins:
