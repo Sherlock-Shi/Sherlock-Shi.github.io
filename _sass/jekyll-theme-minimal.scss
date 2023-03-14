@@ -2,20 +2,88 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
+  margin: 0; 
+  background-color: white;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+// div.container {
+//   display: flex; 
+//   grid-template-columns: 1fr 1fr 1fr;
+//   column-gap: 12px;
+//  }
+
+div.container {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  padding: 50px;
+}
+
+.profile-picture {
+  max-width:100%;
+  border-radius: 100px;
+  overflow: hidden;
+  // margin-right: 50px;
+  // background-size: cover;
+}
+
+.vertical-line {
+  height: 125px;
+  position: relative;
+  border-left: 1.5px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  background-color: #000000;
+  left: 0%;
+  top: 0px;
+}
+
+.text-container {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
   color:#222;
-  margin:0 0 20px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:0 0 0px;
+}
+
+p, ol, table, pre, dl {
+  margin:0 0 20x;
+}
+
+ul {
+  margin:0 0 5px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-right: 30px;
+}
+
+a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
 }
 
 h1, h2, h3 {
@@ -101,11 +169,6 @@ th {
   color:#444;
 }
 
-img {
-  max-width:100%;
-  border-radius: 50%;
-}
-
 kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
@@ -120,12 +183,12 @@ kbd {
   vertical-align: middle;
 }
 
-header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
+// header {
+//   width:500px;
+//   float:left;
+//   position:fixed;
+//   -webkit-font-smoothing:subpixel-antialiased;
+// }
 
 ul.downloads {
   list-style:none;
@@ -205,12 +268,28 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:500px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:0px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+// div.container {
+//   display: flex; 
+//   grid-template-columns: 1fr 1fr 1fr;
+//   column-gap: 12px;
+//  }
+ 
+//  img {
+//     max-width:100%;
+//     border-radius: 50%;
+//  }
+
+ .text{
+    text-align: left;
+    margin-top: 20px;
+ }
 
 @media print, screen and (max-width: 960px) {
 
