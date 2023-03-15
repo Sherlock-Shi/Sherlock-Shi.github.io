@@ -1,21 +1,83 @@
 @import "fonts";
 @import "rouge-github";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 body {
-  background-color: #fff;
+  background-color: #181a1b;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  // font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
+// div.container {
+//   display: flex; 
+//   grid-template-columns: 1fr 1fr 1fr;
+//   column-gap: 12px;
+//  }
+
+div.container {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  padding: 50px;
+}
+
+.profile-picture {
+  max-width:100%;
+  border-radius: 100px;
+  overflow: hidden;
+  // margin-right: 50px;
+  // background-size: cover;
+}
+
+.vertical-line {
+  height: 175px;
+  position: relative;
+  border-left: 1.5px solid white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  background-color: white;
+  left: 0%;
+  top: 0px;
+}
+
+.text-container {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  color:white;
   margin:0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
+
+ol, table, pre, dl {
   margin:0 0 20px;
+}
+
+p{
+  margin: 0 0 5px;
+  color:rgba(255, 255, 255, 0.684);
+} 
+
+ul {
+  list-style: none;
+  margin:10px 0 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+li{
+  display:inline-block;
+  margin: 0 40px 0 2px;
 }
 
 h1, h2, h3 {
